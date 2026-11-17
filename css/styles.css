@@ -266,3 +266,11 @@ form #submit {
         margin: 0 2%;
     }
 }
+
+/* Media Query for Print */
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+}
