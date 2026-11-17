@@ -232,3 +232,37 @@ form #submit {
         height: 450px;
     }
 }
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px), print {
+
+    /* Desktop Viewport: Style rule for header */
+    header {
+        padding: 2%;
+    }
+
+    /* Desktop Viewport: Style rules for nav area */
+    nav li a {
+        padding: 0.5em 1.5em;
+    }
+
+    nav li a:hover {
+        color: #373684;
+        background-color: #e5e9fc;
+    }
+
+    /* Desktop Viewport: Style rules for main content */
+    #info ul {
+        margin-left: 5%;
+    }
+
+    main h3 {
+        font-size: 1.5em;
+    }
+
+    #piano, #guitar, #violin {
+        width: 29%;
+        float: left;
+        margin: 0 2%;
+    }
+}
