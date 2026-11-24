@@ -265,6 +265,17 @@ figcaption {
         width: 500px;
         height: 450px;
     }
+    
+    /* Tablet Viewport: Style rules for instructors page */
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+
+    aside {
+        grid-column: 1 / span 2;
+    }
 }
 
 /* Media Query for Desktop Viewport */
@@ -298,6 +309,19 @@ figcaption {
         width: 29%;
         float: left;
         margin: 0 2%;
+    }
+    
+    /* Desktop Viewport: Style rules for instructors page */
+    .grid {
+        grid-template-columns: auto auto auto auto;
+    }
+
+    figcaption {
+        font-size: 1em;
+    }
+
+    aside {
+        grid-column: 1 / span 4;
     }
 }
 
